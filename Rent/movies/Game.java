@@ -6,6 +6,7 @@ public class Game extends Product implements Buyable {
 	boolean preOrdered;
 	List<Person> Staff;
 	int price;
+	
 	public boolean isPreOrdered() {
 		return preOrdered;
 	}

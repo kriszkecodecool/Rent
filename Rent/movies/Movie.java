@@ -20,6 +20,7 @@ public class Movie extends Product implements Buyable {
 	public static final String file = "movies.xml";
 	int price;
 	private List<Person> cast = new ArrayList<Person>();
+	int id;
 	
 	public String getTitle() {
 		return title;

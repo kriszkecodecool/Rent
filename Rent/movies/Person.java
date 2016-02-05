@@ -8,6 +8,7 @@ public class Person {
 		FEMALE
 	}
 	Gender gender;
+	int salary;
 	
 	public int getSalary() {
 		return salary;
@@ -17,7 +18,6 @@ public class Person {
 		this.salary = salary;
 	}
 
-	int salary;
 	public static final String file = "movies.xml";
 	
 	public static void main(String[] args) {

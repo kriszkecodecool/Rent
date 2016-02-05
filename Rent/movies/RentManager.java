@@ -37,7 +37,14 @@ public class RentManager {
 		person3.setSalary(5000);
 		
 		book.setAuthor(person);
-		book2.setAuthor(person2);
+		book2.setAuthor(person3);
+		
+		game.setId();
+		game2.setId();
+		book.setId();
+		book2.setId();
+		movie.setId();
+		movie2.setId();
 		
 		game.setPreOrdered(true);
 		game.setPrice(2500);
@@ -76,6 +83,8 @@ public class RentManager {
 		System.out.println(game.getInvestment());
 		System.out.println(game2.getInvestment());
 		System.out.println(buyableProductsIncome(buyable));
+		System.out.println(game.id);
+		System.out.println(book.id);
 	}
 		
 		public static int buyableProductsIncome(List<Buyable> buyable)
